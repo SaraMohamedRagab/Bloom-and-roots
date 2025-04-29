@@ -2,9 +2,11 @@
 
 **Bloom & Roots** is a beautifully crafted minimalist shopping experience where users can explore and shop for **plants, seeds, pots, and custom bouquets**. Thoughtfully designed with a nature-inspired aesthetic, this responsive web app offers smooth navigation, filtering, and a delightful user experience.
 
-![Hero Screenshot](roots1.png)
-![Shop Screenshot](roots2.png)
-![Shop Screenshot](roots3.png)
+# Bloom and Roots
+
+<img src="roots1.png" alt="Hero Screenshot" width="400"/>
+<img src="roots2.png" alt="Shop Screenshot" width="400"/>
+<img src="roots3.png" alt="Shop Screenshot" width="400"/>
 
 
 ---
