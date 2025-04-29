@@ -32,7 +32,7 @@
 ## 🎬 Demo
 
 Watch the live walkthrough on YouTube:  
-👉 [Click here to watch the demo]([https://www.youtube.com/watch?v=YOUR_VIDEO_LINK](https://youtu.be/_V_C7uU15lk))
+👉 [Click here to watch the demo](https://youtu.be/_V_C7uU15lk)
 
 
 
