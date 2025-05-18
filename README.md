@@ -1,54 +1,41 @@
-# React + TypeScript + Vite
+# 🌿 Bloom & Roots
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Bloom & Roots** is a beautifully crafted minimalist shopping experience where users can explore and shop for **plants, seeds, pots, and custom bouquets**. Thoughtfully designed with a nature-inspired aesthetic, this responsive web app offers smooth navigation, filtering, and a delightful user experience.
 
-Currently, two official plugins are available:
+# Bloom and Roots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="roots1.png" alt="Hero Screenshot" width="400"/>
+<img src="roots2.png" alt="Shop Screenshot" width="400"/>
+<img src="roots3.png" alt="Shop Screenshot" width="400"/>
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🌸 Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- 🪴 Browse curated categories: Plants, Seeds, Pots, Bouquets
+- 🌼 Build your own bouquet with a live preview
+- 🧩 Filter and sort products by type, price, and availability
+- 💚 Smooth and responsive user experience
+- 🌙 Beautiful soft UI with calming tones
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🔧 Tech Stack
+
+- **Vite + React + TypeScript**
+- **Tailwind CSS** for styling
+- **shadcn/ui** for prebuilt accessible components
+- **React Router** for navigation
+- **Custom Hooks** and clean modular structure
+
+---
+
+## 🎬 Demo
+
+Watch the live walkthrough on YouTube:  
+👉 [Click here to watch the demo](https://youtu.be/_V_C7uU15lk)
+
+
+
+
