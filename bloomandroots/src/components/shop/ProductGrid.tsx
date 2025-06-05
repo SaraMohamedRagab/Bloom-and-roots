@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { ShoppingCart } from 'lucide-react';
 import { useCart } from '@/hooks/useCard';
-import { Product } from '@/types';
 import { products } from '@/data/products';
 
 type ProductGridProps = {
