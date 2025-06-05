@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { ShoppingCart } from 'lucide-react';
 import { useCart } from '@/hooks/useCard';
-import { Product } from '@/types';
+import { Product } from '../../types/product'; 
 
 const FeaturedProducts = () => {
   const { addToCart } = useCart();
