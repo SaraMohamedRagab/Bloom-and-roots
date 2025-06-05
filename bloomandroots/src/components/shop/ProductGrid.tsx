@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { ShoppingCart } from 'lucide-react';
 import { useCart } from '@/hooks/useCard';
+import { Product } from '../../types/product'; 
 import { products } from '@/data/products';
 
 type ProductGridProps = {
@@ -12,8 +13,7 @@ type ProductGridProps = {
 const ProductGrid = ({ category, searchQuery }: ProductGridProps) => {
   const { addToCart } = useCart();
   
-  // Filter products based on category and search query
-  const filteredProducts = products.filter(product => {
+  const filteredProducts = products.filter((product) => {
     const matchesCategory = !category || product.category === category;
     const matchesSearch = !searchQuery || 
       product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -25,7 +25,7 @@ const ProductGrid = ({ category, searchQuery }: ProductGridProps) => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
       {filteredProducts.length > 0 ? (
-        filteredProducts.map((product) => (
+        filteredProducts.map((product: Product) => ( // ✅ FIXED: typed `product`
           <div key={product.id} className="group rounded-xl overflow-hidden shadow-md hover-lift bg-white">
             <Link to={`/product/${product.id}`} className="block aspect-square overflow-hidden">
               <img 
